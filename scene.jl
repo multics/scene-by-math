@@ -36,6 +36,7 @@ ys = xs
 # zs = N.([xs; ys])
 
 # surface(xs, ys, (x, y) -> N([x; y]), xlims=(0, 100), ylims=(0, 100), zlims=(-2, 100), showaxis=false, show=true)
-surface(xs, ys, (x, y) -> N([x; y]), xlims=(0, 200), ylims=(0, 200), zlims=(-1, 200), showaxis=false, show=true)
+# surface(xs, ys, (x, y) -> N([x; y]), xlims=(0, 200), ylims=(0, 200), zlims=(-1, 200), showaxis=false, show=true)
+surface(xs, ys, F, xlims=(0, 200), ylims=(0, 200), zlims=(-1, 200), showaxis=false, show=true)
 
 # readline()
